@@ -1,0 +1,133 @@
+{
+    margin 0;
+    padding 0;
+}
+
+header, nav, main, aside,article,footer,div {
+    display: block;
+}
+
+body 
+{background-color: #F2F2F2; 
+
+}
+#wrapper {
+    margin: 0px 125px;
+}
+
+header {
+    margin-top: 15px;
+}
+
+#logo {
+    background-image: url("/images/Star.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 88px;
+    width: 88px;
+}
+a{
+    text-decoration: none;
+}
+
+#logo span{
+font-family: tahoma;
+padding-left: 110px;
+padding-top: 29px;
+color: #222222;
+font-size: 60px;
+}
+
+#nav{
+    margin-top: 129px;
+}
+
+#nav a {
+font-family: tahoma;
+font-weight: 500px;
+padding-left: 110px;
+padding-top: 29px;
+color: #222222;
+font-size: 14px;
+line-height: 24px;
+text-transform: uppercase;
+letter-spacing: 4px;
+}
+
+#nav a :hover{
+   color: #1434E1; 
+}
+
+#cover-photo {
+    margin-top: 40px;
+    
+}
+
+#cover-photo img :not(:last-child){
+    margin-right: 30px;
+}
+
+h2 {
+font-family: tahoma;
+font-weight: 400px;
+font-style: normal;
+/* padding-left: 110px; */
+/* padding-top: 29px; */
+color: #0F2522;
+font-size: 18px;
+line-height: 28px;
+text-transform: uppercase;
+letter-spacing: 0px; 
+width: 730px;
+height: 58px;
+opacity: 0.7;
+}
+
+#discover {
+margin-top : 40px ;
+}
+#discover p {
+font-family : Tahoma ;
+font-style : normal ;
+font-weight : normal ;
+font-size : 18px ;
+line-height : 28px ;
+color : #222222 ;
+opacity : 0.7 ;
+width : 730px ;
+margin-top : 8px ;
+}
+
+#list {
+margin-top : 60px ;
+}
+#list ul {
+list-style : none ;
+}
+#list ul li {
+height : 54px ;
+}
+
+#list {
+font-family: tahoma;
+font-weight: 400px;
+font-style: normal;
+/* padding-left: 110px; */
+/* padding-top: 29px; */
+color: #000000 ;
+font-size: 14px;
+line-height: 24px;
+text-transform: uppercase;
+letter-spacing: 4px; 
+width: 190px;
+height: 16px;
+opacity: 0.7;  
+}
+
+#list ul li:not (:last-child ) {
+margin-bottom : 30px ;
+}
+#list ul li:first-child {
+margin-top : 8px ;
+}
